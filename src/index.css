@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit" , 'Times New Roman', Times, serif;
+
+}
+body
+{
+  background-color: black;
+
+}
+*
+{
+  color: white;
+  text-decoration: none;
+}
+ul
+{
+  list-style-type: none;
+}
+.btn
+{
+  padding: 10px 20px;
+  font-size: 1rem ;
+  text-transform: uppercase;
+  background-color: yellowgreen;
+  color: black;
+  font-weight: 500;
+  border: 3px solid black;
+ 
+}
+.btn2 
+{
+  background: rgba(21, 172, 165, 0.825);
+  color: white;
+  font-weight: 500;
+  border: 3px solid black;
+  font-size: 1rem ;
+  padding: 10px 20px;
+}
+.btn:hover
+{
+  background-color: darkkhaki;
+ 
+  transition: 0.3s;
+}
+.btn2:hover
+{
+  background-color: rgba(12, 135, 188, 0.564);
+
+  transition: 0.3s;
 }

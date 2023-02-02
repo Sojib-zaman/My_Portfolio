@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Quicksand&display=swap');
+*
+{
+    color: white;
+}
+h3 
+{
+    font-family:"Quicksand" , 'Times New Roman', Times, serif ;
+    padding: 3px ;
+    margin: auto;
+}
+p
+{
+    font-family: "Quicksand";
+    font-weight: 700;
+    font-size: large;
+}
+.Footer 
+{
+    width: 100%; 
+    padding: 5rem 0;
+    background-color: rgba(20,29, 29, .8);
+}
+.Container 
+{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+}
+.left-part-of-footer 
+{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.location 
+{
+    display: flex;
+    margin-bottom: 0.9rem;
+}
+.right-part-of-footer
+{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.social 
+{
+    margin-top: 1rem;
+    justify-content: space-between;
+
+}
+@media screen and (max-width : 640px)
+
+{
+    .Container 
+    {
+        grid-template-columns: 1fr;
+    }
+    
+}

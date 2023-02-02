@@ -1,0 +1,70 @@
+.project-heading
+{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+.project-container
+{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+   
+    padding-bottom: 2pc;
+   
+}
+.project-card
+{
+    background: rgba(0, 38, 37, 0.64);
+   padding-left: .8pc;
+padding-right: .8pc; 
+padding-top: .8pc;
+    height: 400px;
+    font-size: small;
+
+ 
+
+}
+.project-card img 
+{
+    width: 100%;
+    height: 50%;
+}
+.project-title 
+{
+    padding: 1rem 0 ;
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+}
+.proj-image
+{
+    width: 100%;
+}
+.Project-details
+{
+    text-align: justify;
+}
+.pro-btn 
+{
+    margin-bottom: 20px;
+    padding-top: 4px;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-gap: 20px;
+    padding: 0pc;
+    text-align: center;
+}
+@media screen and (max-width : 740px) {
+    .project-container
+    {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    
+}
